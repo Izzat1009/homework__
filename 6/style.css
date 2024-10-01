@@ -1,0 +1,97 @@
+
+.box{
+    position: absolute;
+    background: #FE5F55;
+    border-radius: 40%;
+    width: 400px;
+    height: 400px;
+    padding-left: 10%;
+    left: 590px;
+    top: 200px;
+    overflow: hidden;
+}
+.box::before{
+    position: absolute;
+    content: "";
+    width: 600px;
+    height: 200px;
+    left: 0px;
+    top: 250px;
+    background: #A64942;
+
+}
+.box2{
+    position: absolute;
+    background: #FE5F55;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 610px;
+}
+.box2::before{
+    content: "";
+    position: absolute;
+    background: #FFF1C1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+.box3{
+    position: absolute;
+    background: #FE5F55;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    left: 320px;
+}
+.box3::before{
+    content: "";
+    position: absolute;
+    background: #FFF1C1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+.box4{
+    position: absolute;
+    background: #293462;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 75px;
+    top: 75px;
+}
+.box4::before{
+    content: "";
+    position: absolute;
+    background: #293462;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 320px;
+}
+.box5{
+    position: absolute;
+    background: #293462;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 270px;
+    right: 180px;
+}
+.box5::before{
+    content: "";
+    position: absolute;
+    background: #293462;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 100px;
+}
+
+

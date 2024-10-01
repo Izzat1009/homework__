@@ -1,0 +1,42 @@
+body{
+    background:  #6592CF;
+}
+.box{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    background: #243D83;
+    top: 150px;
+    left: 250px;
+}
+.box::before{
+    content: "";
+    background-color: #6592CF;
+    border-radius: 50%;
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    left: 150px;
+    top: -190px;
+}
+
+.box2{
+    content: "";
+    background: #243D83;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    left: 340px;
+    top: -0px;
+}
+.box2::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 204, 0);
+    border-radius: 50%;
+    left: 150px;
+    top: 150px;
+}
